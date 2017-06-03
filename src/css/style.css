@@ -63,7 +63,10 @@
  .lang-list > .lang-item:nth-child(2) a {
      color: #ffffff;
  }
- 
+ .lang-list > .lang-item:nth-child(3) a{
+     text-decoration: none;
+ }
+
  .lang-list > .lang-item:last-child a {
      border-right: none;
      color: #ffffff;
