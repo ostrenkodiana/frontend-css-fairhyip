@@ -92,7 +92,6 @@
  
  .mainmenu .menu-list > .menu-item{
      display: inline-block;
-     height: 40px;
      width: 112px;
  }
  
@@ -102,13 +101,14 @@
  }
  
  .mainmenu .menu-item  > a {
+     box-sizing: border-box;
      text-decoration: none;
      color: #461500;
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
      display: block;
-     height: 100%;
      padding: 12px 27px;
+     height: 40px;
  }
  
  /*-----authorization-----*/
@@ -201,6 +201,7 @@
      height: 76px;
      position: relative;
      border-top: 1px solid #a28243;
+     opacity:0.5;
      margin:auto;
  }
  
